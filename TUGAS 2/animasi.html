@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script>
+$(document).ready(function() {
+
+    $("button").click(function() {
+        $("div").animate({
+            height: 'toggle'
+        });
+    });
+
+});
+</script>
+
+</head>
+
+<body>
+
+<p>Klik tombol "start" untuk memulai animasi.</p>
+
+<button>Start</button>
+
+
+<div style="background:#fb2e00; height:100px; width:100px; position:absolute;">
+</div>
+
+</body>
+</html>
